@@ -8,12 +8,12 @@
 # \S      - Not Whitespace (space, tab, newline)
 # \t      - TAB / tabulator
 #
-# \b      - Word Boundary
+# \b      - Word Boundary /wstawiamy przed słowem zaczynającym się np. \bHa - i znajdzie nam 2 słowa
 # \B      - Not a Word Boundary
-# ^       - Beginning of a String
-# $       - End of a String
+# ^       - Beginning of a String /wstawiamy na początku stringa
+# $       - End of a String /wstawiamy na końcu stringa
 #
-# []      - Matches Characters in brackets
+# []      - Matches Characters in brackets /wstawiamy np [-.] i wyszukuje nam tylko te znaki w tekscie
 # [^ ]    - Matches Characters NOT in brackets
 # |       - Either Or
 # ( )     - Group
